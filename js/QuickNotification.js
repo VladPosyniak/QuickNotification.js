@@ -13,14 +13,18 @@ function QuickNotification(header, message, time, buttons) {
         '</div>');
 
     function NotificationClose() {
-        $('#quick-notification-'+id).fadeOut('slow');
+        $('#quick-notification-'+id).fadeOut('slow', function(){
+            $('#quick-notification-'+id).remove();
+        });
 
     }
 
 
     $('.close-'+QuickNotificationNumber).click(function(){
         var id = this.rel;
-        $('#quick-notification-'+id).fadeOut('slow');
+        $('#quick-notification-'+id).fadeOut('slow', function(){
+            $('#quick-notification-'+id).remove();
+        });
         return false;
     });
 
@@ -32,7 +36,6 @@ function QuickNotification(header, message, time, buttons) {
 
 }
 
-QuickNotification('error', 'something wrong', 2000);
-QuickNotification('error', 'something wrong', 3000);
-QuickNotification('error', 'something wrong', 4000);
+
+
 

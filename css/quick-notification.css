@@ -11,9 +11,9 @@
     color: white;
     font-family: "Helvetica";
     z-index: 100;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 100%;
-    min-height: 80px;
+    min-height: 90px;
     position: relative;
     float: right;
     margin: 20px;
