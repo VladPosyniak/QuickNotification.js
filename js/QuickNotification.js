@@ -30,12 +30,14 @@ function QuickNotification(header, message, time, buttons) {
 
 
 
-    setTimeout(NotificationClose, time);
 
-
+        if(time !== 'never'){
+            setTimeout(NotificationClose, time);
+        }
 
 }
 
 
 
 
+QuickNotification('Hello!', 'Thank you for using QuickNotification.js!=)', 5000);
