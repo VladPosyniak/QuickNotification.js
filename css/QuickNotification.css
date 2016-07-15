@@ -11,11 +11,11 @@
     z-index: 100;
 }
 
-#quick-notification .notification {
-    color: white;
-    min-width: 300px;
+#quick-notification .quick-notification {
+    color: white; /*notification text color*/
+    min-width: 300px; /*notification minimal width*/
     max-width: 100%;
-    min-height: 90px;
+    min-height: 90px; /*notification minimal height*/
     position: relative;
     float: right;
     margin: 20px;
@@ -26,14 +26,12 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background-color: rgba(24, 24, 24, 0.7);
+    background-color: rgba(24, 24, 24, 0.7); /*notification backgrond color*/
 }
 
-#quick-notification .notification .body {
 
-}
 
-#quick-notification .notification .close {
+#quick-notification .quick-notification .quick-notification-close {
     position: absolute;
     right: -1px;
     top: -1px;
@@ -44,7 +42,7 @@
 }
 
 
-#quick-notification .notification .close  {
+#quick-notification .quick-notification .quick-notification-close  {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -56,22 +54,28 @@
 
 }
 
-#quick-notification .notification .close:hover{
+#quick-notification .quick-notification .quick-notification-close:hover{
     color: black;
 }
 
-#quick-notification .notification .header {
+#quick-notification .quick-notification .quick-notification-header {
 
 }
 
-#quick-notification .notification .header h4 {
+#quick-notification .quick-notification .quick-notification-header h4 {
     margin: 5px 0;
 }
 
-#quick-notification .notification .footer{
+#quick-notification .quick-notification .quick-notification-footer{
     text-align: right;
 }
 
-#quick-notification .notification .footer button{
+#quick-notification .notification .quick-notification-footer button{
     padding: 3px 10px;
+}
+
+@media(max-width: 360px)  {
+    #quick-notification .quick-notification{
+        min-width: 200px;
+    }
 }

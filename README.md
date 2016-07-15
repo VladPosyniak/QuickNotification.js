@@ -15,7 +15,7 @@ First, you have to connect the `Jquery`, and the script itself:
 After, you need to connect the CSS style:
 
 ```html
-<link rel="stylesheet" href="css/quick-notification.css">
+<link rel="stylesheet" href="css/QuickNotification.css">
 ```
 
 Finally, you have to insert this markup anywhere in your page:
@@ -43,7 +43,7 @@ Arguments values
 * message = `string`
 * time = `number`or` 'never'`
 
-You can write to me
+Contacts
 --------
 
 If you have questions or ideas, you can write to [me](https://new.vk.com/bitfox4d).
