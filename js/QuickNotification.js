@@ -36,4 +36,3 @@ function QuickNotification(header, message, time, buttons) {
 }
 
 
-QuickNotification('Hello!', 'Thank you for using QuickNotification.js!=)', 5000); /*you can delete this*/
