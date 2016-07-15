@@ -1,0 +1,75 @@
+#quick-notification {
+    position: fixed;
+    right: -1px;
+    bottom: -1px;
+    max-width: 400px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#quick-notification .notification {
+    color: white;
+    font-family: "Helvetica";
+    z-index: 100;
+    min-width: 200px;
+    max-width: 100%;
+    min-height: 80px;
+    position: relative;
+    float: right;
+    margin: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(24, 24, 24, 0.7);
+}
+
+#quick-notification .notification .body {
+
+}
+
+#quick-notification .notification .close {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    padding: 5px 12px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+
+#quick-notification .notification .close  {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+
+#quick-notification .notification .close:hover{
+    color: black;
+}
+
+#quick-notification .notification .header {
+
+}
+
+#quick-notification .notification .header h4 {
+    margin: 5px 0;
+}
+
+#quick-notification .notification .footer{
+    text-align: right;
+}
+
+#quick-notification .notification .footer button{
+    padding: 3px 10px;
+}
