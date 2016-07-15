@@ -5,14 +5,14 @@
 Quickstart
 --------
 
-First you have to connect the `Jquery`, and the script itself:
+First, you have to connect the `Jquery`, and the script itself:
 
 ```html
 <script src="js/jquery-3.0.0.min.js"></script>
 <script src="js/QuickNotification.js"></script>
 ```
 
-After you have connected the css style:
+After, you need to connect the CSS style:
 
 ```html
 <link rel="stylesheet" href="css/quick-notification.css">
@@ -39,6 +39,11 @@ QuickNotification('Hello!', 'My name is Vlad!:)', 5000);
 Arguments values
 --------
 
-*header = `string`
-*message = `string`
-*time = `number`or` 'never'`
+* header = `string`
+* message = `string`
+* time = `number`or` 'never'`
+
+You can write to me
+--------
+
+If you have questions or ideas, you can write to [me](https://new.vk.com/bitfox4d).
