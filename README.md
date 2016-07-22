@@ -56,8 +56,8 @@ QuickNotificationSetting.Side = 'right';
 
 All settings:
 
-* QuickNotificationSetting.FadeOutSpeed = 'fast' or 'slow'(default) - The rate of disappearance of the notification.
-* QuickNotificationSetting.Side = 'right' or 'left'(default) - Part of the screen which will display a notification.
+* `QuickNotificationSetting.FadeOutSpeed` = `'fast'` or `'slow'`(default) - The rate of disappearance of the notification.
+* `QuickNotificationSetting.Side` = `'right'` or `'left'`(default) - Part of the screen which will display a notification.
 * Coming soon:)
 
 Also, you can open the `QuickNotification.css` and fully configure notifications for themselves.
