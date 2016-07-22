@@ -1,6 +1,6 @@
 # QuickNotification.js
 
-![](https://2.downloader.disk.yandex.ua/disk/55ec668eb0998f09d2c0a3afb771f8a123a0ffed05ba384328aa11db7e663867/57893b10/0S7VfByo7GUS3gXenS0UfZC1qcgbgH2echhVvfnoITWl0kH6dbuuIuDlJ7_OXYavCAdV8_8OYSpcjUaJSEJV0A%3D%3D?uid=0&filename=QuickNotificationExample.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&fsize=65874&hid=f785c20d3ce617447ca429796d776894&media_type=image&tknv=v2&etag=912e7c731302c2994712acf171517aad)
+![](https://yadi.sk/i/FI7MqAA8tYDWE)
 
 Quickstart
 --------
@@ -28,12 +28,12 @@ Finally, you have to insert this markup anywhere in your page:
 How to use
 --------
 
-QuickNotification.js have only one function - `QuickNotification(header, message, time)`.
+QuickNotification.js have only one function - `QuickNotification(header, message, time, theme(optional))`.
 
 For example you can:
 
 ```js
-QuickNotification('Hello!', 'My name is Vlad!:)', 5000);
+QuickNotification('Hello!', 'My name is Vlad!:)', 5000, 'success');
 ```
 
 Arguments values
@@ -42,6 +42,25 @@ Arguments values
 * header = `string`
 * message = `string`
 * time = `number`or` 'never'`
+* theme = 'info', 'danger', 'success' or 'standard'(default)
+
+Settings
+--------
+
+You can customize your notification:
+
+```js
+QuickNotificationSetting.FadeOutSpeed = 'fast';
+QuickNotificationSetting.Side = 'right';
+```
+
+All settings:
+
+* QuickNotificationSetting.FadeOutSpeed = 'fast' or 'slow'(default) - The rate of disappearance of the notification.
+* QuickNotificationSetting.Side = 'right' or 'left'(default) - Part of the screen which will display a notification.
+* Coming soon:)
+
+Also, you can open the `QuickNotification.css` and fully configure notifications for themselves.
 
 Contacts
 --------

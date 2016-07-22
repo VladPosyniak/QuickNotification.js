@@ -1,9 +1,18 @@
 var QuickNotificationArea = $('#quick-notification');
 var QuickNotificationNumber = 0;
-function QuickNotification(header, message, time, buttons) {
+var QuickNotificationSetting = {'Side': 'right', 'FadeOutSpeed': 'slow'};
+function QuickNotification(header, message, time, theme) {
     var id = QuickNotificationNumber++;
     id = id + 1;
-    QuickNotificationArea.append('<div class="quick-notification" id="quick-notification-' + QuickNotificationNumber + '">' +
+
+    if (QuickNotificationSetting.Side == 'left') {
+        QuickNotificationArea.css({'left': -1, 'right': 1})
+    }
+    if(theme == undefined){
+        theme = 'standard'
+    }
+
+    QuickNotificationArea.append('<div class="quick-notification '+theme+'" id="quick-notification-' + QuickNotificationNumber + '">' +
         '<div class="quick-notification-header">' +
         '<a class="quick-notification-close quick-notification-close-' + QuickNotificationNumber + '" rel="' + QuickNotificationNumber + '" >+</a><h4>' + header + '</h4>' +
         '</div>' +
@@ -13,16 +22,15 @@ function QuickNotification(header, message, time, buttons) {
         '</div>');
 
     function NotificationClose() {
-        $('#quick-notification-' + id).fadeOut('slow', function () {
+        $('#quick-notification-' + id).fadeOut(QuickNotificationSetting.FadeOutSpeed, function () {
             $('#quick-notification-' + id).remove();
         });
 
     }
 
-
     $('.quick-notification-close-' + QuickNotificationNumber).click(function () {
         var id = this.rel;
-        $('#quick-notification-' + id).fadeOut('slow', function () {
+        $('#quick-notification-' + id).fadeOut(QuickNotificationSetting.FadeOutSpeed, function () {
             $('#quick-notification-' + id).remove();
         });
         return false;
@@ -35,4 +43,6 @@ function QuickNotification(header, message, time, buttons) {
 
 }
 
+QuickNotificationSetting.FadeOutSpeed = 'fast';
+QuickNotificationSetting.Side = 'right';
 

@@ -1,7 +1,6 @@
+
 #quick-notification {
     font-family: "Helvetica"; /*you can choose your font here*/
-
-
     position: fixed;
     right: -1px;
     bottom: -1px;
@@ -17,19 +16,46 @@
     max-width: 100%;
     min-height: 90px; /*notification minimal height*/
     position: relative;
-    float: right;
+
     margin: 20px;
     padding: 10px;
-    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background-color: rgba(24, 24, 24, 0.7); /*notification backgrond color*/
 }
 
+#quick-notification .standard {
+    background-color: rgba(54, 63, 69, 0.6); /*notification backgrond color*/
+}
 
+#quick-notification .standard:hover {
+    background-color: rgba(54, 63, 69, 1);
+}
+
+#quick-notification .danger {
+    background-color: rgba(189, 55, 54, 0.6); /*notification backgrond color*/
+}
+
+#quick-notification .danger:hover {
+    background-color: rgba(189, 55, 54, 1);
+}
+
+#quick-notification .success {
+    background-color: rgba(75,174,79, 0.6); /*notification backgrond color*/
+}
+
+#quick-notification .success:hover {
+    background-color: rgba(75,174,79, 1);
+}
+
+#quick-notification .info {
+    background-color: rgba(2,168,243, 0.6); /*notification backgrond color*/
+}
+
+#quick-notification .info:hover {
+    background-color: rgba(2,168,243, 1);
+}
 
 #quick-notification .quick-notification .quick-notification-close {
     position: absolute;
@@ -41,8 +67,7 @@
     -o-transform: rotate(45deg);
 }
 
-
-#quick-notification .quick-notification .quick-notification-close  {
+#quick-notification .quick-notification .quick-notification-close {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -54,7 +79,7 @@
 
 }
 
-#quick-notification .quick-notification .quick-notification-close:hover{
+#quick-notification .quick-notification .quick-notification-close:hover {
     color: black;
 }
 
@@ -66,16 +91,16 @@
     margin: 5px 0;
 }
 
-#quick-notification .quick-notification .quick-notification-footer{
+#quick-notification .quick-notification .quick-notification-footer {
     text-align: right;
 }
 
-#quick-notification .notification .quick-notification-footer button{
+#quick-notification .notification .quick-notification-footer button {
     padding: 3px 10px;
 }
 
-@media(max-width: 360px)  {
-    #quick-notification .quick-notification{
+@media (max-width: 360px) {
+    #quick-notification .quick-notification {
         min-width: 200px;
     }
 }
