@@ -1,6 +1,6 @@
 # QuickNotification.js
 
-![](blob:https%3A//drive.google.com/474ffb55-d82b-405a-9291-5e06e9f72111)
+![](https://pp.vk.me/c627231/v627231735/3ed3f/MS2mI6Dk1iQ.jpg)
 
 Quickstart
 --------
