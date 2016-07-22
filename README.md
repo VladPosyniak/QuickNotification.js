@@ -1,6 +1,6 @@
 # QuickNotification.js
 
-![](https://yadi.sk/i/FI7MqAA8tYDWE)
+![](https://4.downloader.disk.yandex.ua/preview/d6bc5b6b11b4d2b9a70ed00a72b55aa05f3ac82425315b0cd4eb9071421320ab/inf/0S7VfByo7GUS3gXenS0UfeHvuzt1ppxoc607J0Y74EQeWkBkkDaMROeI-VE1Lhto0_a0vIKrH-sO7bPCJ9FHYw%3D%3D?uid=214491805&filename=QuickNotification.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1280x827)
 
 Quickstart
 --------

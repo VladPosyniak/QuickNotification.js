@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d47b14-2224-4b2f-8991-2e84024f4572" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/QuickNotification.css" afterPath="$PROJECT_DIR$/css/QuickNotification.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/QuickNotification.js" afterPath="$PROJECT_DIR$/js/QuickNotification.js" />
     </list>
     <ignored path="quick-notification.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,31 +39,31 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.222221">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state vertical-scroll-proportion="-3.7777777">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickNotification.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuickNotification.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/QuickNotification.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
+            <state vertical-scroll-proportion="0.03912543">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickNotification.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickNotification.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/QuickNotification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.89273745">
+            <state vertical-scroll-proportion="0.0">
               <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <marker date="1469199603346" expanded="true" signature="588:938" placeholder="..." />
-                <marker date="1469199603346" expanded="true" signature="882:919" placeholder="..." />
+                <marker date="1469202787865" expanded="true" signature="588:938" placeholder="..." />
+                <marker date="1469202787865" expanded="true" signature="882:919" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -92,10 +88,10 @@
         <option value="$PROJECT_DIR$/js/jquery-3.0.0.min.js" />
         <option value="$PROJECT_DIR$/js/quick-notification.js" />
         <option value="$PROJECT_DIR$/css/quick-notification.css" />
-        <option value="$PROJECT_DIR$/js/QuickNotification.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/QuickNotification.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/QuickNotification.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -244,7 +240,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -315,8 +311,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469199603346" expanded="true" signature="588:938" placeholder="..." />
-            <marker date="1469199603346" expanded="true" signature="882:919" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="588:938" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="882:919" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -352,8 +348,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469199603346" expanded="true" signature="588:938" placeholder="..." />
-            <marker date="1469199603346" expanded="true" signature="882:919" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="588:938" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="882:919" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -381,8 +377,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469199603346" expanded="true" signature="588:938" placeholder="..." />
-            <marker date="1469199603346" expanded="true" signature="882:919" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="588:938" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="882:919" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -402,14 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.222221">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.07692308">
@@ -420,22 +408,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/QuickNotification.css">
+    <entry file="file://$PROJECT_DIR$/js/QuickNotification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1469202787865" expanded="true" signature="588:938" placeholder="..." />
+            <marker date="1469202787865" expanded="true" signature="882:919" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7777777">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/QuickNotification.js">
+    <entry file="file://$PROJECT_DIR$/css/QuickNotification.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89273745">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <marker date="1469199603346" expanded="true" signature="588:938" placeholder="..." />
-            <marker date="1469199603346" expanded="true" signature="882:919" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.03912543">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
